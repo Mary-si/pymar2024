@@ -1,5 +1,5 @@
-msg = "www.my_site.com#about"
-print(msg.replace("#", "/"))
+txt: str = "www.my_site.com#about"
+print(txt.replace("#", "/"))
 
 word_list = ["run", "go", "lie"]
 for word in word_list:
